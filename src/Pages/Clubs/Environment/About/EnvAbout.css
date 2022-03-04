@@ -1,0 +1,139 @@
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    align-items: center;
+    width: 15vw;
+    padding: 10vh 0 10vh 20vw ;
+    border: 9px solid #E9B456;
+}
+#AboutTitleEnv {
+
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: white;
+    text-align: left;
+    width: 30vw;
+    font-weight: 700;
+    text-decoration: underline #E9B456 5px;
+    color: #443E58;
+    font-size: 3rem;
+}
+
+.about-text {
+    
+    background-color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    width: 30vw;
+    text-align: justify;
+    animation-duration: 4s;
+    animation-name: slideinright;
+}
+
+@keyframes slideinright {
+    0%{
+        transform: translateX(50%)
+    }
+    100%{
+        transform: translateX(0%);
+    }
+    
+}
+@media screen and (max-width:400px){
+
+#AboutTitleEnv {
+    font-size: 1.2rem;
+    width: 45vw;
+    margin-bottom: 5%;
+    margin-left: -150%;
+    background-color: transparent;
+}
+.box {
+    padding:  5vh 3vw 10vh 35vw ;
+}
+.about-text {
+    font-size: .7rem;
+    width: 40vw;
+    margin-left: -200%;
+    background-color: transparent;
+}
+  }
+  @media screen and (max-width:600px) and (min-width:401px) {
+    #AboutTitleEnv {
+        font-size: 1.3rem;
+        width: 45vw;
+        margin-left: -95%;
+        background-color: transparent;
+    }
+    .box {
+        padding:  5vh 3vw 10vh 35vw ;
+    }
+    .about-text {
+        background-color: transparent;
+        font-size: .7rem;
+        width: 40vw;
+        margin-left: -200%;
+        margin-top: 5%;
+    }
+
+  }
+  @media screen and (max-width:768px) and (min-width:600px) {
+    #AboutTitleEnv {
+        font-size: 2rem;
+        width: 40vw;
+        margin-left: -160%;
+    }
+    .box {
+        padding:  5vh 3vw 10vh 35vw ;
+    }
+    .about-text {
+        font-size: 1rem;
+        width: 40vw;
+        margin-left: -200%;
+        margin-top: 5%;
+    }
+
+  }
+  @media screen and (max-width:992px) and (min-width:768px) {
+
+    #AboutTitleEnv {
+        font-size: 2.9rem;
+        width: 40vw;
+        margin-left: 10vw;
+    }
+    .about-text {
+        font-size: 1rem;
+        width: 40vw;
+        margin-left: 10vw;
+    }
+  }
+  @media screen and (max-width:1200px) and (min-width:992px) {
+    #AboutTitleEnv {
+        font-size: 3rem;
+        width: 35vw;
+        margin-left: 5vw;
+    }
+    .about-text {
+        font-size: 1rem;
+        width: 40vw;
+        margin-left: 10vw;
+    }
+
+  }
+  @media screen and (min-width:1200px) {
+    #AboutTitleEnv {
+        font-size: 3rem;
+    }
+    .about-text {
+        font-size: 1.5rem;
+    }
+
+  }

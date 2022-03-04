@@ -1,0 +1,86 @@
+.clubs-comm{
+    display: flex;
+    flex-direction: column;
+}
+.clubs{     /* css for clubs section */
+    display: flex;
+    flex-direction: column;
+}
+.clubs-heading{     /* for main "Clubs" heading portion including under line */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7vh;
+}
+.clubs-head-text{   /* for main heading text */
+    color: rgb(68, 62, 88);
+    margin: 0;
+}
+.club-heading-underline{        /* for clubs heading underline */
+    background: rgb(233, 180, 86);
+}
+.clubs-all{     /* for main whole section of clubs cards */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 992px) {
+    .club-heading-underline{
+        width: 10.4rem;
+        height: 1vh;
+    }
+    .clubs{
+        gap: 4vh;
+    }
+    .clubs-head-text{
+        font-size: 4rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .club-heading-underline{
+        width: 8rem;
+        height: .7vh;
+    }
+    .clubs{
+        gap: 4vh;
+    }
+    .clubs-head-text{
+        font-size: 3rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .club-heading-underline{
+        width: 8rem;
+        height: .6vh;
+    }
+    .clubs{
+        gap: 4vh;
+    }
+    .clubs-head-text{
+        font-size: 3rem;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .club-heading-underline{
+        width: 7rem;
+        height: .6vh;
+    }
+    .clubs{
+        gap: 4vh;
+    }
+    .clubs-head-text{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .club-heading-underline{
+        width: 5.5rem;
+        height: .4vh;
+    }
+    .clubs{
+        gap: 4vh;
+    }
+    .clubs-head-text{
+        font-size: 2rem;
+    }
+}

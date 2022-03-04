@@ -1,0 +1,26 @@
+.Member-card,.Member-picture-name,.Member_picture,.Member_name,.Member_post{
+    display: flex;
+    flex-direction: column;
+}
+.Member_picture{
+    width: 25vw;
+    height: 56vh;
+    align-self: center;
+}
+@media screen and (max-width:768px){
+    .Member_picture{
+        width: 50%;
+        height: fit-content;
+        align-self: center;
+    }
+}
+.Member_name,.Member_post{
+    font-weight: normal;
+    font-size: 2.4vh;
+    line-height: 5vh;
+    text-align: center;
+}
+
+.Member_post{
+    color: rgba(0, 0, 0, 0.6);
+}

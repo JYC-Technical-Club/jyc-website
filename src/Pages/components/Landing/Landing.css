@@ -1,0 +1,81 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .landing-page{
+    background-image: url("images/event-4.jpg");
+    background-size: "cover";
+    background-position: center;   
+    height: 100vh;  
+    background-repeat:no-repeat; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  } 
+.main-heading{
+    color: aliceblue;    
+    font-size: 3.875rem;    
+    text-align: center;
+}
+.sub-heading{
+    color: aliceblue;
+   
+    font-weight: 500; 
+    font-size: 1.875rem;
+    margin-top: 10px;
+}
+/* .latest-events-btn {
+    background: linear-gradient(93.76deg, rgb(122, 86, 86) 3.13%, rgba(157, 68, 68, 0.797) 31.89%, rgba(205, 74, 74, 0.636) 53.89%, rgba(214, 141, 141, 0.21) 97.83%);
+    -webkit-border-radius: 13.23;
+    -moz-border-radius: 13.23;
+    border-radius: 13.23px;
+    text-shadow: 3px 3px 3px rgb(102, 102, 102);
+    -webkit-box-shadow: 0px 1px 3px rgb(102, 102, 102);
+    -moz-box-shadow: 0px 1px 3px rgb(102, 102, 102);
+    box-shadow: 0px 1px 3px rgb(102, 102, 102);
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    font-size: 1.313rem;
+    padding: 12px 10px 12px 10px;
+    border: solid rgb(167, 94, 94) 0px;
+    text-decoration: none;   
+}   */
+.latest-events-btn {
+    background: transparent;
+    -webkit-border-radius: 13.23;
+    -moz-border-radius: 13.23;
+    border-radius: 13.23px;
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    font-size: 1.313rem;
+    padding: 12px 10px 12px 10px;
+    backdrop-filter: blur(7px);
+    border: solid rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 550;
+}  
+/* .latest-events-btn:hover {
+    background: rgb(157, 68, 68);
+    background-image: -webkit-linear-gradient(top, rgb(157, 68, 68), rgb(205, 74, 74));
+    background-image: -moz-linear-gradient(top, rgb(157, 68, 68), rgb(205, 74, 74));
+    background-image: -ms-linear-gradient(top, rgb(157, 68, 68), rgb(205, 74, 74));
+    background-image: -o-linear-gradient(top, rgb(157, 68, 68), rgb(205, 74, 74));
+    background-image: linear-gradient(to bottom, rgb(157, 68, 68), rgb(205, 74, 74));   
+} */
+.latest-events-btn:hover {
+    background: rgb(255, 255, 255);
+    /* border: solid rgb(0, 0, 0); */
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .main-heading{
+        font-size: 2rem;
+    }
+    .sub-heading{
+        width: 80%;
+        font-size: 1rem;
+    }
+}

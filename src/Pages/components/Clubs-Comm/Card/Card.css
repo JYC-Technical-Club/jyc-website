@@ -1,0 +1,114 @@
+.club-card {
+  /* css for main card at back */
+  display: flex;
+  background: rgba(227, 207, 172, 0.4);
+  align-items: center;
+  padding: 2vh 2vh;
+  gap: 2vw;
+  margin-bottom: 4vh;
+}
+.club-card-content {
+  /* css for card content */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.club-card-heading {
+  /* css for card heading */
+  color: rgb(68, 62, 88);
+  font-weight: 700;
+}
+.club-card-about {
+  /* css for card about */
+  text-align: justify;
+  margin-top: 1vh;
+  color: rgb(52, 52, 52);
+}
+.learn-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5vh;
+  width: 16vh;
+  padding: 0.4vh 1vh;
+  background: rgb(68, 62, 88);
+}
+.links{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.learn-more:hover {
+  background: #000;
+}
+@media only screen and (min-width: 992px) {
+  .club-card {
+    width: 38%;
+  }
+  .club-card-heading {
+    font-size: 1.4rem;
+  }
+  .club-logo-image {
+    width: 9rem;
+  }
+  /* .club-card-content {
+    height: 8.5rem;
+  } */
+  .club-card-about {
+    font-size: 1rem;
+    width: 25vw;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .club-card {
+    width: 40%;
+  }
+  .club-logo-image {
+    width: 8.5rem;
+  }
+  .club-card-heading {
+    font-size: 1.4rem;
+  }
+  .club-card-about {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .club-card {
+    width: 65%;
+    margin-bottom: 3vh;
+  }
+  .club-logo-image {
+    width: 8.5rem;
+  }
+  .club-card-heading {
+    font-size: 1.4rem;
+  }
+  .club-card-about {
+    font-size: 0.9rem;
+  }
+  .learn-more {
+    padding: 0.2vh 0.5vh;
+    font-size: .9rem;
+    width: 14vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .club-card {
+    width: 80%;
+    /* flex-direction: column; */
+    margin-bottom: 2vh;
+  }
+  .club-logo-image {
+    width: 7rem;
+  }
+  .club-card-heading {
+    font-size: .9rem;
+  }
+  .club-card-about {
+    font-size: 0.7rem;
+  }
+  .learn-more {
+    padding: 0.2vh 0.5vh;
+    font-size: .7rem;
+    width: 11vh;
+  }
+}

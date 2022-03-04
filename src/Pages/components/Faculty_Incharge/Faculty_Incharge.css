@@ -1,0 +1,138 @@
+.Faculty-Coordinator{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+.faculty-coordinator-heading{
+    font-weight: bold;
+    color: #443E58;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fi-underline{
+    display: flex;
+    background: rgb(233, 180, 86);
+}
+.faculty-coordinator-content{
+    display: flex;
+   width: 100%;
+   justify-content: space-evenly;
+}
+.coordinator-picture-name,.coordinator-picture-description{
+display: flex;
+}
+.coordinator-picture-name{
+    flex-direction: column;
+    justify-content: center;
+}
+.Faculty_picture{
+    width: 21vw;
+    height: 50vh;
+
+}
+.Faculty_name{
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+.coordinator-picture-description{
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    gap: 2vh;
+}
+.content,.email-dept,.phone{
+    display: flex;
+    text-align: justify;
+}
+@media screen and (max-width:768px){
+    .faculty-coordinator-content{
+        flex-direction: column;
+        align-content: center;
+    }
+    .faculty-coordinator-head-text{
+    font-size: 3rem;    
+    }
+    .Faculty_picture{
+        width: 50%;
+        height: 40%;
+        align-self: center;
+    }
+    .coordinator-picture-description{
+        width: 70%;
+        margin: auto;
+    }
+    .faculty-coordinator-content{
+        gap: 4vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .faculty-coordinator-head-text{
+        font-size: 2rem;
+    }
+    .coordinator-picture-description{
+        font-size: .7rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .fi-underline{
+        width: 31rem;
+        height: .9vh;
+    }
+    .coordinator-picture-description{
+        font-size: 1rem;
+    }
+    .faculty-coordinator-heading{
+        font-size: 4rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .fi-underline{
+        width: 23.5rem;
+        height: .7vh;
+    }
+    .faculty-coordinator-heading{
+        font-size: 3rem;
+    }
+    .coordinator-picture-description{
+        font-size: .9rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .fi-underline{
+        width: 23.3rem;
+        height: .6vh;
+    }
+    .faculty-coordinator-heading{
+        font-size: 3rem;
+    }
+    .coordinator-picture-description{
+        font-size: .9rem;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 600px) {
+    .fi-underline{
+        width: 19.5rem;
+        height: .6vh;
+    }
+    .faculty-coordinator-heading{
+        font-size: 2.5rem;
+    }
+    .coordinator-picture-description{
+        font-size: .7rem;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .fi-underline{
+        width: 15.5rem;
+        height: .4vh;
+    }
+    .faculty-coordinator-heading{
+        font-size: 2rem;
+    }
+    .coordinator-picture-description{
+        font-size: .7rem;
+    }
+}
