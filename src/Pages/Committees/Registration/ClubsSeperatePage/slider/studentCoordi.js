@@ -1,10 +1,10 @@
 import "./studentCoordi.css";
-import image from '../images/AbhayGuleria.png'
-import image1 from '../images/ArthzaShukla.png'
-import image2 from '../images/NandiniAgarwal.png'
-import image3 from '../images/ShivendraSingh.png'
+import Geetali from '../images/geetali_goel.png'
+import Harsh from '../images/harsh_abhay_galgate.png'
+import Karan from '../images/karan_sharma.png'
+import Chirag from '../images/chirag_jain.png'
 import Slideshow from './Slideshow/Slideshow'
-const images = [image,image1,image2,image3];
+const images = [Geetali,Harsh,Karan,Chirag];
 
 function StudentSlideShow() {
   return (

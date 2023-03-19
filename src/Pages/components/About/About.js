@@ -27,7 +27,7 @@ function About() {
                     <li className='become-member-item'>Interested students are required to fill a form on the basis of which a brief interview is conducted.</li>
                     <li className='become-member-item'>Students exclusively in the 1st and 2nd year of their academic programmes can be general body members.</li>
                     <li className='become-member-item'>Students of third and fourth year work as coordinators and mentors respectively for successful completion of events.</li>
-                    <li className='become-member-item'>Since JYC is a student's body, therefore, it runs primarily with the small contribution of Rs 1200/- per annum with the students. However, sometimes, depending on the requirements, JUIT may also support it.</li>
+                    <li className='become-member-item'>Since JYC is a student's body, therefore, it runs primarily with the small contribution of Rs 900/- per annum with the students. However, sometimes, depending on the requirements, JUIT may also support it.</li>
                 </ul>
             </div>         
         </div>

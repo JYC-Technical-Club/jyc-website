@@ -1,9 +1,10 @@
 import "./SportsstudentCoordi.css";
-import Ambar from '../images/AmbarTiwari.png'
-import Aryan from '../images/AryanBathla.png'
-import Falguni from '../images/FalguniBharadwaj.png'
+import Karanveer from '../images/karanveer_singh.png'
+import Arnav from '../images/arnav_thakur.png'
+import Arushi from '../images/arushi.png'
+import Suditi from '../images/suditi_rathore.png'
 import Slideshow from './Slideshow/Slideshow'
-const images = [Ambar,Falguni,Aryan];
+const images = [Karanveer,Arushi,Arnav,Suditi];
 
 function StudentSlideShow() {
   return (

@@ -1,10 +1,10 @@
 import "./TMPstudentCoordi.css";
-import Sahil from '../images/SahilThakur.png'
-import Akshat from '../images/Akshat.png'
+import Divyan from '../images/Divyan.png'
+import Abhinandan from '../images/Abhinandan.png'
 import Shivansh from '../images/ShivanshGarg.png'
 
 import Slideshow from './Slideshow/Slideshow'
-const images = [Sahil,Akshat,Shivansh];
+const images = [Divyan,Abhinandan,Shivansh];
 
 function StudentSlideShow() {
   return (

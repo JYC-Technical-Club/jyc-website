@@ -4,7 +4,6 @@ import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 import logojyc from "./images/logojyc.png";
 import { Cross as Hamburger } from 'hamburger-react';
-import Homepage from "../../Homepage";
 import {animateScroll as scroll} from 'react-scroll';
 import {Link as LNK} from 'react-scroll';
 function Header() {
@@ -67,7 +66,7 @@ function Header() {
             </li>
 
             <li>
-              <Link to="contact">CONTACT</Link>
+              <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>

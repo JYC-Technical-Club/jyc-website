@@ -1,8 +1,8 @@
 import "./studentCoordi.css";
-import image from '../images/AnjaliRana.png'
-import image1 from '../images/RohitRaj.png'
+import Janhvi from '../images/janhvi_singh.png'
+import Jyotirmay from '../images/jyotirmay_verma.png'
 import Slideshow from './Slideshow/Slideshow'
-const images = [image,image1,image,image1];
+const images = [Janhvi,Jyotirmay,Janhvi,Jyotirmay];
 
 function StudentSlideShow() {
   return (

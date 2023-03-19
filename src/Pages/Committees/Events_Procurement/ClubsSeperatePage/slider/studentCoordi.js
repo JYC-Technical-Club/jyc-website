@@ -1,10 +1,10 @@
 import "./studentCoordi.css";
-import image from '../images/AchyutTiwari.png'
-import image1 from '../images/Nandita.png'
-import image2 from '../images/Sai.png'
-import image3 from '../images/ShikharTrivedi.png'
+import Utsav from '../images/utsav.png'
+import Vansh from '../images/vansh_jain.png'
+import Soumya from '../images/soumya_goyal.png'
+import Ishita from '../images/ishita_sarin.png'
 import Slideshow from './Slideshow/Slideshow'
-const images = [image,image1,image2,image3];
+const images = [Utsav,Soumya,Vansh,Ishita];
 
 function StudentSlideShow() {
   return (

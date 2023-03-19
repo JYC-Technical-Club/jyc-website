@@ -18,6 +18,11 @@
   display: flex;
   justify-content:center;
 }
+.cordi_2{
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+}
 @media screen and (max-width:400px){
   .StdCoordinators{
     height: 20%;

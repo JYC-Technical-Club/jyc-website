@@ -1,8 +1,8 @@
 import React from 'react'
 import './JYC_Team.css'
-import Member1 from './Card/Member_pictures/Pragya_ JYC_Secretary.jpg'
-import Member2 from './Card/Member_pictures/Aditya_Saxena_President_JYC.jpg'
-import Member3 from './Card/Member_pictures/Devansh_Gupta_Treasurer.jpg'
+import Aditya from './Card/Member_pictures/aditya_sharma.JPG'
+import Angel from './Card/Member_pictures/angel_singh.JPG'
+import Archit from './Card/Member_pictures/archit_kaushal.JPG'
 import Card from './Card/Card';
 
 export default function JYC_Team() {
@@ -15,22 +15,22 @@ export default function JYC_Team() {
     <div className='JYC-TEAM-Members'>
       <div className='Member-1'>
       <Card
-        img={Member1}
-        Name='Pragya Tiwari'
+        img={Aditya}
+        Name='Aditya Sharma'
         Post='Secreatry'
         />
       </div>
       <div className='Member-2'>
       <Card
-        img={Member2}
-        Name='Aditya Saxena'
+        img={Angel}
+        Name='Angel Singh'
         Post='President'
         />
       </div>
       <div className='Member-2'>
       <Card
-        img={Member3}
-        Name='Devansh Gupta'
+        img={Archit}
+        Name='Archit Kaushal'
         Post='Treasurer'
         />
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./cards/cards";
 import Card1 from "./cards/cards";
 
-import AshokNadda from "./images/AshokNadda.jpeg";
+import Deepak from "./images/deepak_gupta.png";
 import TGM from "./images/TGM.jpeg";
 import "./LitFacultyCoordinators.css";
 function FacultyCoordinators() {
@@ -11,11 +11,11 @@ function FacultyCoordinators() {
       <div id="FACTitle" className='HeadingFacCoordi'> <b>Faculty Coordinators</b></div>
       <div className="containerFC"><div id="LitTilted" class="tilted">
         <div class="card" ><Card 
-            src={AshokNadda}
-            title="Dr. Ashok Nadda"
-            designation="Assistant Professor"
-            eMail="ashok.nadda@juit.ac.in"
-            Phone="(91)01792 239353"
+            src={Deepak}
+            title="Dr. Deepak Gupta"
+            designation="Assistant Professor (SG)"
+            eMail="deepak.gupta@juitsolan.in"
+            Phone="8054439080"
           /></div>
         <div class="card" id="Card2"><Card1
             src={TGM}
