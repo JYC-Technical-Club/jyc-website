@@ -2,7 +2,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import EVENTS from "./Pages/Event Page/EVENTS/EVENTS";
-import TEAMS from "./Pages/Teams/TEAMS/TEAMS"
+import TEAMS from "./Pages/Teams/TEAMS/TEAMS";
 import Cultural from "./Pages/Clubs/Cultural/Cultural";
 import Environment from "./Pages/Clubs/Environment/Environment";
 import Literary from "./Pages/Clubs/Literary/Literary";
@@ -22,24 +22,27 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route index element={<Homepage />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="events" element={<EVENTS />} />
-          <Route path="teams" element={<TEAMS />} />
-          <Route path="cultural-club" element={<Cultural />} />
-          <Route path="environment-club" element={<Environment />} />
-          <Route path="literary-club" element={<Literary />} />
-          <Route path="sports-club" element={<Sports />} />
-          <Route path="theatre-club" element={<Theatre />} />
-          <Route path="tmp-club" element={<TMPClub />} />
-          <Route path="arts-committee" element={<Arts />} />
-          <Route path="disciplinary-committee" element={<Disciplinary />} />
-          <Route path="eventspro-committee" element={<EventsPro />} />
-          <Route path="finance-committee" element={<Finance />} />
-          <Route path="media-committee" element={<Media />} />
-          <Route path="registration-committee" element={<Registration />} />
-          <Route path="page-under-construction" element={<Page_Under_Construction />} />
+        <Route index element={<Homepage />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="events" element={<EVENTS />} />
+        <Route path="teams" element={<TEAMS />} />
+        <Route path="cultural-club" element={<Cultural />} />
+        <Route path="environment-club" element={<Environment />} />
+        <Route path="literary-club" element={<Literary />} />
+        <Route path="sports-club" element={<Sports />} />
+        <Route path="theatre-club" element={<Theatre />} />
+        <Route path="tmp-club" element={<TMPClub />} />
+        <Route path="arts-committee" element={<Arts />} />
+        <Route path="disciplinary-committee" element={<Disciplinary />} />
+        <Route path="eventspro-committee" element={<EventsPro />} />
+        <Route path="finance-committee" element={<Finance />} />
+        <Route path="media-committee" element={<Media />} />
+        <Route path="registration-committee" element={<Registration />} />
+        <Route
+          path="page-under-construction"
+          element={<Page_Under_Construction />}
+        />
       </Routes>
     </BrowserRouter>
   );

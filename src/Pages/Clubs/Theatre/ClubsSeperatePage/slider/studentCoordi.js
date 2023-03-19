@@ -1,9 +1,9 @@
 import "./TheatrestudentCoordi.css";
-import Jeet from '../images/JeetDhamija.png'
-import Mrinal from '../images/MrinalSharma.png'
-import Pranjal from '../images/PranjalBansal.png'
+import Vishwadeep from '../images/vishwadeep_nigam.png'
+import Parth from '../images/parth_kumar_khare.png'
+import Ishan from '../images/ishan_sharma.png'
 import Slideshow from './Slideshow/Slideshow'
-const images = [Jeet,Mrinal,Pranjal];
+const images = [Vishwadeep,Parth,Ishan];
 
 function StudentSlideShow() {
   return (

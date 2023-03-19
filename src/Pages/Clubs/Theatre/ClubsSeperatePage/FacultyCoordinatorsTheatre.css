@@ -18,6 +18,9 @@
   background-color: #443E58 ;
   margin-left: -45vw;
 }
+.c2{
+  margin-top: 1rem;
+}
 .card { 
   margin: 0vh 60vw;
   transform: skew(-30deg);

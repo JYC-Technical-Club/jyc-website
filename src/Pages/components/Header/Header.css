@@ -37,6 +37,7 @@
 .nav-items ul a {
   color: rgb(189, 186, 186);
   text-decoration: none;
+  cursor: pointer;
 }
 .nav-items ul li a:hover::after {
   width: 100%;
