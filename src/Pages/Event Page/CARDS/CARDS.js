@@ -1,5 +1,6 @@
 import React from 'react'
 import './CARDS.css'
+import {Link} from 'react-router-dom'
 export default function Card(parse) {
   return (
     
@@ -22,7 +23,12 @@ export default function Card(parse) {
          <div className='flip-card-back-events'>
            <h1>{parse.heading}</h1> 
            <p className='events-abt'>{parse.about}</p> 
-           
+           <Link className='links'
+            to={{
+              pathname: parse.link,
+              state: { fromDashboard: true }
+              }}>Learn More >
+          </Link>
          </div>
        
 
