@@ -1,7 +1,6 @@
 import React from 'react';
 import './Eventcard.css';   
-;
-
+import {Link} from 'react-router-dom'
 
 export default function Eventcard(parse) {  
   return (
@@ -17,6 +16,13 @@ export default function Eventcard(parse) {
         <div className='event-about-ue'>   
           {parse.about}   
         </div>
+
+        <Link className='event-links'
+            to={{
+              pathname: parse.link,
+              state: { fromDashboard: true }
+              }}>Learn More >
+        </Link>
        
       </div>
     </div>
