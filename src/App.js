@@ -18,6 +18,7 @@ import Registration from "./Pages/Committees/Registration/Registration";
 import Page_Under_Construction from "./Pages/Page_Under_Construction/Page_Under_Construction";
 import About from "./Pages/components/About/About";
 import Contact from "./Pages/Contact/Contact";
+import MovieNight from "./Pages/Event Page/EventPages/MovieNight/MovieNight";
 function App() {
   return (
     <BrowserRouter>
@@ -39,6 +40,7 @@ function App() {
         <Route path="finance-committee" element={<Finance />} />
         <Route path="media-committee" element={<Media />} />
         <Route path="registration-committee" element={<Registration />} />
+        <Route path="movie-night" element={<MovieNight />} />
         <Route
           path="page-under-construction"
           element={<Page_Under_Construction />}
