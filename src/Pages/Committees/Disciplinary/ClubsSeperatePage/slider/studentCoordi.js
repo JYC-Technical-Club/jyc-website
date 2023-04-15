@@ -4,7 +4,8 @@ import Dazzle from '../images/dazzle.png'
 import Shantam from '../images/Shantam.png'
 import Slideshow from './Slideshow/Slideshow'
 import Sharad from '../images/Sharad.png'
-const images = [Sristi,Dazzle,Shantam,Sharad];
+import Akshat from '../images/Akshat.png'
+const images = [Sristi,Dazzle,Shantam,Sharad,Akshat];
 
 function StudentSlideShow() {
   return (
