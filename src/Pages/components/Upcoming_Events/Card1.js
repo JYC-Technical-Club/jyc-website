@@ -11,7 +11,7 @@ export default function Card1() {
     <div className="cards-ue">
       <div className="card-ue">
         <Eventcard
-          img={t20}
+          img={image2}
           heading="T20 International"
           // date='2022'
           about="For all the criket fans out there, the Technical Club will be screening the match."
