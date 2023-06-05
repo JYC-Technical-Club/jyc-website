@@ -19,6 +19,9 @@ import Page_Under_Construction from "./Pages/Page_Under_Construction/Page_Under_
 import About from "./Pages/components/About/About";
 import Contact from "./Pages/Contact/Contact";
 import MovieNight from "./Pages/Event Page/EventPages/MovieNight/MovieNight";
+import LeFiestus from "./Pages/Event Page/EventPages/LeFiestus/LeFiestus";
+import Murious from "./Pages/Event Page/EventPages/Murious/Murious";
+import SemTournaments from "./Pages/Event Page/EventPages/SemTournaments/SemTournaments";
 function App() {
   return (
     <BrowserRouter>
@@ -41,6 +44,9 @@ function App() {
         <Route path="media-committee" element={<Media />} />
         <Route path="registration-committee" element={<Registration />} />
         <Route path="movie-night" element={<MovieNight />} />
+        <Route path="le-fiestus" element={<LeFiestus />} />
+        <Route path="murious" element={<Murious />} />
+        <Route path="sem-tournaments" element={<SemTournaments />} />
         <Route
           path="page-under-construction"
           element={<Page_Under_Construction />}
