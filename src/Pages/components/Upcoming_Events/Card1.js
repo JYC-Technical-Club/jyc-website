@@ -1,6 +1,6 @@
 import React from "react";
-import t20 from "./image/t20.jpeg";
-import image2 from "./image/event2.jpg";
+import image1 from "./image/movienight.jpeg";
+import image2 from "./image/diksha.JPG";
 import image3 from "./image/event3.jpg";
 import "./Card1.css";
 import Eventcard from "./Eventcard";
@@ -11,20 +11,20 @@ export default function Card1() {
     <div className="cards-ue">
       <div className="card-ue">
         <Eventcard
-          img={image2}
-          heading="T20 International"
+          img={image1}
+          heading="Movie Night"
           // date='2022'
-          about="For all the criket fans out there, the Technical Club will be screening the match."
-          link="/t20"
+          about="Get ready for a reel good time at 'Movie Night' - where cinematic magic meets unforgettable memories!"
+          link="/movie-night"
         />
       </div>
       <div className="card-ue">
         <Eventcard
           img={image2}
-          heading="Wellness Week"
+          heading="Diksha"
           // date='2022'
-          about="Unite people through common goals of community awareness, prompting a better quality of life"
-          link="/wellness-week"
+          about="Embark on a journey of new beginnings and unforgettable memories at 'Diksha' – the ultimate freshers party."
+          link="/diksha"
         />
       </div>
       <div className="card-ue">
