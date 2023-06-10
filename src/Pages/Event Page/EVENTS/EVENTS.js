@@ -1,12 +1,12 @@
 import React from "react";
 import "./EVENTS.css";
-import uiux from "./images/uiux.jpeg";
-import Photowalk from "./images/Photowalk.jpeg";
+import lf from "./images/lf.JPG";
+import murious from "./images/murious1.JPG";
 import movienight from "./images/movienight.jpeg";
-import radio from "./images/radio.jpeg";
-import sems from "./images/sems.jpeg";
+import alfaz from "./images/alfaz.JPG";
+import sems from "./images/sems.JPG";
 import mchef from "./images/mchef.png";
-import wecare from "./images/wecare.png";
+import diksha from "./images/diksha.JPG";
 import Card from "../CARDS/CARDS";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
@@ -35,19 +35,19 @@ function EVENTS() {
           />
 
           <Card
-            img={uiux}
-            title="UI/UX and Web Dev Bootcamp"
+            img={lf}
+            title="Le Fiestus"
             date=""
-            about="When building a website, the UI/UX designer determines what the team should build and what the website should do & the developers make the website work and functionable."
-            link="/"
+            about="Welcome to 'Le Fiestus' – our college's highly anticipated annual fest that promises three unforgettable days filled with boundless energy, exhilarating activities, and mesmerizing performances."
+            link="/le-fiestus"
           />
 
           <Card
-            img={Photowalk}
-            title="Photowalk"
+            img={murious}
+            title="Murious"
             date=""
-            about="Photowalking is a communal activity of camera enthusiasts who gather in a group to walk around with a camera for the main purpose of taking pictures of things that interest them."
-            link="/"
+            about="Welcome to 'Murious' – our college's highly anticipated annual tech fest that spans three action-packed days dedicated to innovation, technology, and limitless possibilities."
+            link="/murious"
           />
 
           <Card
@@ -55,30 +55,37 @@ function EVENTS() {
             title="Semester Tournament"
             date=""
             about="A tournament which brings together all the sports enthusiasts. From basketball to cricket ,chess to badminton from indoor to outdoors this tournament wraps it all."
-            link="/"
+            link="/sem-tournaments"
           />
 
           <Card
-            img={radio}
-            title="JUIT Radio"
+            img={alfaz}
+            title="Alfaz"
             date=""
-            about="Bored of being bored because being bored is boring. 'Radio' Presented by JYC's Literary and Debating Club."
-            link="/"
+            about="The Literary and Debating Club of JUIT Youth Club hosted 'ALFAAZ '22,' a celebration merging literature, art, and culture against the stunning Himalayan backdrop."
+            link="/alfaaz"
           />
 
           <Card
-            img={wecare}
-            title="We-Care"
+            img={diksha}
+            title="Diksha"
             date=""
-            about="WE-CARE an event organized by the Environment club in coordination with the Omega- Leo club , to create awareness amongst the youngsters and teenagers about tree plantation ,importance of trees for life and much more."
-            link="/"
+            about="The Freshers' Events at JUIT are a celebration of new beginnings, forging lifelong connections, and creating unforgettable memories. From the moment you step foot on our picturesque campus, you will be embraced by the warm camaraderie and contagious enthusiasm that defines our vibrant student community."
+            link="/diksha"
           />
           <Card
             img={mchef}
             title="Master Chef"
             date=""
             about="An event organized to spread awareness about the importance of health."
-            link="/"
+            link="/master-chef"
+          />
+          <Card
+            img={mchef}
+            title="Parakram"
+            date=""
+            about="An event organized to spread awareness about the importance of health."
+            link="/parakram"
           />
         </div>
       </div>
