@@ -3,7 +3,6 @@ import Card from "../Card/Card";
 import "../MovieNight/MovieNight.css";
 import Header from "../../../components/Header/Header";
 import Footer from "../../../components/Footer/Footer";
-import lf from "./Assets/lf.JPG";
 
 export default function Parakram() {
   return (
@@ -12,21 +11,21 @@ export default function Parakram() {
       <div className="mov-night">
       <span className="header-bg-for-white"/>
         <Card
-          img={lf}
-          alt="Le Fiestus"
-          title="Le Fiestus"
-          date="Date: 27-29 April, 2023 "
-          about="Welcome to 'Le Fiestus' – our college's highly anticipated annual fest that promises three unforgettable days filled with boundless energy, exhilarating activities, and mesmerizing performances. From engaging workshops and competitive sports events to captivating cultural showcases and star-studded musical performances, Le Fiestus offers a diverse range of experiences that cater to every interest. So join us as we celebrate the spirit of camaraderie, creativity, and pure excitement, making memories that will last a lifetime. Get ready to immerse yourself in the vibrant atmosphere of Le Fiestus and unleash the true essence of college life."
-          img1={lf}
-          alt1="Le Fiestus"
-          img2={lf}
-          alt2="Le Fiestus"
-           img3={lf}
-          alt3="Le Fiestus"
-          img4={lf}
-          alt4="Le Fiestus"
-          img5={lf}
-          alt5="Le Fiestus"
+          img="https://drive.google.com/uc?export=view&id=1CLcGY_hroK-4Q7uO1qRVP2KUDfVBF8Wm"
+          alt="Parakram"
+          title="Parakram"
+          date=""
+          about="Parakram, a thrilling sports event, brings together universities for competitive matches in football, basketball, volleyball, tennis, and more. Our university hosts the event, attracting students from all over to cheer for their teams. With our university also participating, it creates an electric atmosphere as teams from different universities come together to showcase their skills and sportsmanship."
+          img1="https://drive.google.com/uc?export=view&id=1d4LZHLkjui7vTw-nwYFvr3uXJrWcOzsR"
+          alt1="Parakram"
+          img2="https://drive.google.com/uc?export=view&id=1TVVua5-Uv5VVoGy91CB50pvuhPoximwP"
+          alt2="Parakram"
+           img3="https://drive.google.com/uc?export=view&id=12O6bwbZQACGMZ-uJs4-97t0_5xTTeSVr"
+          alt3="Parakram"
+          img4="https://drive.google.com/uc?export=view&id=1mL05OM00t2bkj_0I3uZu4GvbM11mt7oR"
+          alt4="Parakram"
+          img5="https://drive.google.com/uc?export=view&id=1YQyANMYC12LoC1KcbfXM1FvJmT9UWauk"
+          alt5="Parakram"
         />
       </div>
       <Footer/>

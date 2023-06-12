@@ -1,12 +1,5 @@
 import React from "react";
 import "./EVENTS.css";
-import lf from "./images/lf.JPG";
-import murious from "./images/murious1.JPG";
-import movienight from "./images/movienight.jpeg";
-import alfaz from "./images/alfaz.JPG";
-import sems from "./images/sems.JPG";
-import mchef from "./images/mchef.png";
-import diksha from "./images/diksha.JPG";
 import Card from "../CARDS/CARDS";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
@@ -27,7 +20,7 @@ function EVENTS() {
         <div className="events-container">
           {/* EVENT 6 */}
           <Card
-            img={movienight}
+            img="https://drive.google.com/uc?export=view&id=1GmBhrAJPmk29lHtftFExVCtlPrDdkPmW"
             title="MOVIE Night"
             date=""
             about="When you are at college, you are always looking for simple ways to have fun. Movies are the best stress reliever to be able to just forget about your responsibilities and just relax and have fun."
@@ -35,7 +28,7 @@ function EVENTS() {
           />
 
           <Card
-            img={lf}
+            img="https://drive.google.com/uc?export=view&id=1GBuTwck52fQkaP463Ese0Jj5BQQLhmVA"
             title="Le Fiestus"
             date=""
             about="Welcome to 'Le Fiestus' – our college's highly anticipated annual fest that promises three unforgettable days filled with boundless energy, exhilarating activities, and mesmerizing performances."
@@ -43,7 +36,7 @@ function EVENTS() {
           />
 
           <Card
-            img={murious}
+            img="https://drive.google.com/uc?export=view&id=1ldy1PsD3tNA5xXM1wTr8YEOxUC6e9EEv"
             title="Murious"
             date=""
             about="Welcome to 'Murious' – our college's highly anticipated annual tech fest that spans three action-packed days dedicated to innovation, technology, and limitless possibilities."
@@ -51,7 +44,7 @@ function EVENTS() {
           />
 
           <Card
-            img={sems}
+            img="https://drive.google.com/uc?export=view&id=1B-83WhhsagT6AUXrsmDbWVjEmUSK0duM"
             title="Semester Tournament"
             date=""
             about="A tournament which brings together all the sports enthusiasts. From basketball to cricket ,chess to badminton from indoor to outdoors this tournament wraps it all."
@@ -59,7 +52,7 @@ function EVENTS() {
           />
 
           <Card
-            img={alfaz}
+            img="https://drive.google.com/uc?export=view&id=1F5n4FgrDD0D7Eiq2t5z7ukD_pZ8g-9pn"
             title="Alfaz"
             date=""
             about="The Literary and Debating Club of JUIT Youth Club hosted 'ALFAAZ '22,' a celebration merging literature, art, and culture against the stunning Himalayan backdrop."
@@ -67,21 +60,21 @@ function EVENTS() {
           />
 
           <Card
-            img={diksha}
+            img="https://drive.google.com/uc?export=view&id=1CXgsGXGsihB46UZCE8rUDkCUkirlmSqI"
             title="Diksha"
             date=""
             about="The Freshers' Events at JUIT are a celebration of new beginnings, forging lifelong connections, and creating unforgettable memories. From the moment you step foot on our picturesque campus, you will be embraced by the warm camaraderie and contagious enthusiasm that defines our vibrant student community."
             link="/diksha"
           />
           <Card
-            img={mchef}
+            img="https://drive.google.com/uc?export=view&id=1WaMVBglrNbRy1Yh0csWpwzqVF12OKTrc"
             title="Master Chef"
             date=""
             about="An event organized to spread awareness about the importance of health."
             link="/master-chef"
           />
           <Card
-            img={mchef}
+            img="https://drive.google.com/uc?export=view&id=1LnfJzVYHZ_safndvF9NS-2tvLm7RC7Eo"
             title="Parakram"
             date=""
             about="An event organized to spread awareness about the importance of health."
