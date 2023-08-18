@@ -6,7 +6,7 @@ function About () {
         
         <div className="box">
             <div id='AboutReg' className="about-title">
-            About the Club
+            About the Committee
         </div>
    <div className="about-text">
     <p>The Registration & Hospitality committee is responsible for receiving guests with goodwill. It’s primary goal is to ensure smooth registration of participants, provide refreshments, prepare accommodations and maintain all the hospitality equipment and supplies.

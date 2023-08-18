@@ -6,7 +6,7 @@ function About () {
         
         <div className="box">
             <div id='AboutMedia' className="about-title">
-            About the Club
+            About the Committee
         </div>
    <div className="about-text">
     <p>The Publicity Committee spreads the word on the what’s and when’s of every event, big or small. Their responsibility is to market all events, offline as well as online on various platforms. The committee members also coordinate with local businesses and bring in sponsors all through the year for any and all events that take place within the college. They write Sponsorship proposals, travel and reach out to business owners that would be interested in the college fests.
