@@ -1,15 +1,17 @@
 import "./studentCoordi.css";
-import Arjit from '../images/arjit_upadhyay.png'
-import Yash from '../images/yash_srivastava.png'
-
+import Aanchal from '../images/Aanchal Aggarwal.png'
+import Aaryan from '../images/Aaryan sharma.png'
+import Slideshow from './Slideshow/Slideshow'
+import Hriday from '../images/Ambar Pandey.png'
+import Ambar from '../images/Hriday Verma.png'
+const images = [Aanchal,Aaryan,Ambar,Hriday]
 function StudentSlideShow() {
   return (
     <div className="StdCoordinators">
       <div className="Title"><b> Student Coordinators </b></div>
-      <div className="cordi_2">
-        <div className="Jayant"><img src={Arjit} alt={Arjit} /></div>
-        <div className="Jayant"><img src={Yash} alt={Yash} /></div>
-      </div>
+      <Slideshow 
+        img = {images}
+      />
     </div>
   );
 }

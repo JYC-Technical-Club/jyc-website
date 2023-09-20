@@ -1,10 +1,16 @@
 import "./SportsstudentCoordi.css";
-import Karanveer from '../images/karanveer_singh.png'
-import Arnav from '../images/arnav_thakur.png'
-import Arushi from '../images/arushi.png'
-import Suditi from '../images/suditi_rathore.png'
+import Karan from '../images/Karan Rana.png'
+import Aditya from '../images/Aditya Prabhakar.png'
+import Astik from '../images/Astik Tyagi.png'
+import Avi from '../images/Avi Jaiswal.png'
+import Jasmeen from '../images/Jasmeen Kaur.png'
+import Manav from '../images/Manav Lukar.png'
+import Pranjal from '../images/Pranjal Thakur.png'
+import Shruti from '../images/Shruti Kadyan.png'
+import Tarisha from '../images/Tarisha Kaplex.png'
+import Rood from '../images/Roodransh Mehta.png'
 import Slideshow from './Slideshow/Slideshow'
-const images = [Karanveer,Arushi,Arnav,Suditi];
+const images = [Karan,Aditya,Astik,Avi,Jasmeen,Manav,Pranjal,Shruti,Tarisha,Rood];
 
 function StudentSlideShow() {
   return (

@@ -1,6 +1,6 @@
 import "./studentCoordi.css";
-import Janhvi from '../images/janhvi_singh.png'
-import Jyotirmay from '../images/jyotirmay_verma.png'
+import Janhvi from '../images/Ritika.png'
+import Jyotirmay from '../images/Ritesh Dhiman.png'
 import Slideshow from './Slideshow/Slideshow'
 const images = [Janhvi,Jyotirmay,Janhvi,Jyotirmay];
 

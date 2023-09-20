@@ -14,7 +14,7 @@ function Events() {
      {/* EVENT 3 */}
       
         <Card
-       image ="https://drive.google.com/uc?export=view&id=18GVJWuXhV75QskRoBYrS_t5rQaa687DI"
+       image ={m}
        header="Murious"
        abouts="The two days panorama' will be a massive spectacle of technical events and shows, as well as outstanding brain demos, with entertaining events like Click and Blink, Spot the Bug, Web Wizard, Valorant, Tech Talks, Code Quest, and Code Trails."
        />

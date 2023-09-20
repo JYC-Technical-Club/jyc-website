@@ -1,14 +1,14 @@
 import "./studentCoordi.css";
-import Nikita from '../images/nikita_bhatt.png'
-import Siddharth from '../images/siddharth_kuthiala.png'
+import Devanshi from '../images/Devanshi.png'
+import Piyush from '../images/Piyush Joshi.png'
 
 function StudentSlideShow() {
   return (
     <div className="StdCoordinators">
       <div className="Title"><b> Student Coordinators </b></div>
       <div className="cordi_2">
-        <div className="Nishapic"><img src={Nikita} alt={Nikita} /></div>
-        <div className="Nishapic"><img src={Siddharth} alt={Siddharth} /></div>
+        <div className="Nishapic"><img src={Devanshi} alt={Devanshi} /></div>
+        <div className="Nishapic"><img src={Piyush} alt={Piyush} /></div>
       </div>
     </div>
   );

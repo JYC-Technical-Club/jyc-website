@@ -1,16 +1,16 @@
 import "./EnvstudentCoordi.css";
-import Ayushi from '../images/ayushi_tiwari.png'
-import Prakhar from '../images/prakhar.png'
+import Divyansh from '../images/Divyansh Goyal.png'
+import Shruti from '../images/Shruti Shree.png'
 
-const images = [Ayushi,Prakhar];
+const images = [Divyansh,Shruti];
 
 function StudentSlideShow() {
   return (
     <div className="StdCoordinators">
       <div id="TitleSC" className="Title"><b> Student Coordinators </b></div>
       <div class="env_cordi">
-        <div className="PankajKumar"><img src={Ayushi} alt={Ayushi} /></div>
-        <div className="PankajKumar"><img src={Prakhar} alt={Prakhar} /></div>
+        <div className="PankajKumar"><img src={Divyansh} alt={Divyansh} /></div>
+        <div className="PankajKumar"><img src={Shruti} alt={Shruti} /></div>
       </div>    
     </div>
   );

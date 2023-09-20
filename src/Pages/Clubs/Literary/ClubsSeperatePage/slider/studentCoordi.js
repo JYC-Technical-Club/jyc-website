@@ -1,8 +1,9 @@
 import "./LitstudentCoordi.css";
-import MitushiKohli from '../images/Mitushi Kohli.png'
-import SwastikJha from '../images/Swastik Jha.png'
+import Anushree from '../images/Anushree Singh.png'
+import Nandini from '../images/Nandini Aggarwal.png'
+import Shwetabh from '../images/Shwetabh Vikram.png'
 import Slideshow from './Slideshow/Slideshow'
-const images = [MitushiKohli,SwastikJha,MitushiKohli,SwastikJha];
+const images = [Anushree,Nandini,Shwetabh];
 
 function StudentSlideShow() {
   return (

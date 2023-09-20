@@ -1,9 +1,9 @@
 import "./TheatrestudentCoordi.css";
-import Vishwadeep from '../images/vishwadeep_nigam.png'
-import Parth from '../images/parth_kumar_khare.png'
-import Ishan from '../images/ishan_sharma.png'
+import Akarsh from '../images/Akarsh Rastogi.png'
+import Nilakshi from '../images/Nilakshi Sharma.png'
+import Tanmay from '../images/Tanmay Parashar.png'
 import Slideshow from './Slideshow/Slideshow'
-const images = [Vishwadeep,Parth,Ishan];
+const images = [Akarsh,Nilakshi,Tanmay];
 
 function StudentSlideShow() {
   return (

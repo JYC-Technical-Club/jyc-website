@@ -1,11 +1,13 @@
 import "./studentCoordi.css";
-import Sristi from '../images/sristi_agarwal.png'
-import Dazzle from '../images/dazzle.png'
-import Shantam from '../images/Shantam.png'
+import Krritin from '../images/Krritin.png'
+import Pradyumn from '../images/Pradyumn Vashisht.png'
+import Shivansh from '../images/Shivansh.png'
 import Slideshow from './Slideshow/Slideshow'
-import Sharad from '../images/Sharad.png'
-import Akshat from '../images/Akshat.png'
-const images = [Sristi,Dazzle,Shantam,Sharad,Akshat];
+import Yashovardhan from '../images/Yashovardhan.png'
+import Yashwardhan from '../images/Yashwardhan.png'
+import Manshita from '../images/Manshita Jindal.png'
+import Tanu from '../images/Tanu Singh.png'
+const images = [Krritin,Pradyumn,Shivansh,Yashovardhan,Yashwardhan, Manshita,Tanu];
 
 function StudentSlideShow() {
   return (

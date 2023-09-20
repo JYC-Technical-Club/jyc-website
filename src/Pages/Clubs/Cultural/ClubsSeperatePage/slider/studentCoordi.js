@@ -1,9 +1,8 @@
 import "./studentCoordiCultural.css";
-import Rudra from '../images/rudra_pratap_singh.png'
-import Jigyasa from '../images/jigyasa_sharma.png'
-import Akansha from '../images/akansha_sharma.png'
+import Shivansh from '../images/Shivansh Katoch.png'
+import Urvi from '../images/Urvi Mittal.png'
 import Slideshow from './Slideshow/Slideshow'
-const images = [Rudra,Jigyasa,Akansha];
+const images = [Shivansh,Urvi,Shivansh,Urvi];
 
 function StudentSlideShow() {
   return (
