@@ -55,6 +55,7 @@ function App() {
         <Route path="alfaaz" element={<Alfaaz />} />
         <Route path="master-chef" element={<MasterChef />} />
         <Route path="parakram" element={<Parakram />} />
+        <Route path="koshish-club" element={<Parakram />} />
         <Route
           path="page-under-construction"
           element={<Page_Under_Construction />}
