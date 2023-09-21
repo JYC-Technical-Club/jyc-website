@@ -26,6 +26,7 @@ import Diksha from "./Pages/Event Page/EventPages/Diksha/Diksha";
 import Alfaaz from "./Pages/Event Page/EventPages/Alfaaz/Alfaaz";
 import MasterChef from "./Pages/Event Page/EventPages/MasterChef/MasterChef";
 import Parakram from "./Pages/Event Page/EventPages/Parakram/Parakram";
+import Koshish from "./Pages/Clubs/Koshish/Koshish";
 function App() {
   return (
     <BrowserRouter>
@@ -55,7 +56,7 @@ function App() {
         <Route path="alfaaz" element={<Alfaaz />} />
         <Route path="master-chef" element={<MasterChef />} />
         <Route path="parakram" element={<Parakram />} />
-        <Route path="koshish-club" element={<Parakram />} />
+        <Route path="koshish-club" element={<Koshish />} />
         <Route
           path="page-under-construction"
           element={<Page_Under_Construction />}
