@@ -11,15 +11,15 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 160vh;
+  height: 230vh;
   justify-content: center;
   transform: skew(30deg);
   overflow-x: hidden;
   background-color: #443e58;
-  margin-left: -45vw;
+  margin-left: -35vw;
 }
 .card {
-  margin: 0vh 55vw;
+  margin: 0vh 55vw !important;
   transform: skew(-30deg);
 }
 @media screen and (max-width: 400px) {

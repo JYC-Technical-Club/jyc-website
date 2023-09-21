@@ -84,6 +84,9 @@ function Footer() {
               <li className="sports">
                 <Link to='/sports-club'>Sports</Link>
               </li>
+              <li className="koshish">
+                <Link to='/Koshish-club'>Koshish</Link>
+              </li>
             </ul>
           </div>
 
@@ -149,13 +152,13 @@ function Footer() {
                 <Link to='//www.google.com'>Facebook</Link>
               </li>
               <li>
-                <Link to='//www.google.com'>Instagram</Link>
+                <Link to='https://instagram.com/jyc.juit?igshid=NjIwNzIyMDk2Mg=='>Instagram</Link>
               </li>
               <li>
                 <Link to='//www.google.com'>Twitter</Link>
               </li>
               <li>
-                <Link to='//www.google.com'>Linkedin</Link>
+                <Link to='https://www.linkedin.com/company/juit-youth-club/'>Linkedin</Link>
               </li>
             </ul>
           </div>
@@ -167,8 +170,8 @@ function Footer() {
           </div>
           <div className="social-icons">
             <Link to='//www.google.com'><i class="fab fa-facebook"></i></Link>
-            <Link to='//www.google.com'><i class="fab fa-instagram"></i></Link>
-            <Link to='//www.google.com'><i class="fab fa-linkedin"></i></Link>
+            <Link to='https://instagram.com/jyc.juit?igshid=NjIwNzIyMDk2Mg=='><i class="fab fa-instagram"></i></Link>
+            <Link to='https://www.linkedin.com/company/juit-youth-club/'><i class="fab fa-linkedin"></i></Link>
             <Link to='//www.google.com'><i class="fab fa-twitter"></i></Link>
           </div>
           <div className="footer-option-name">

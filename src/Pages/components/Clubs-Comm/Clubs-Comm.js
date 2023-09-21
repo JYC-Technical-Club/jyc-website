@@ -12,6 +12,7 @@ import RegistrationAndHospitalityCommittee from './images/RegistrationAndHospita
 import SportsClub from './images/SportsClub.jpg'
 import TechnicalClub from './images/TechnicalClub.jpg'
 import TheatreAndMusicClub from './images/TheatreAndMusicClub.jpg'
+import Koshish from './images/koshish.png'
 import Card from './Card/Card';
 import './Committees.css';
 import { Link , Route, Outlet} from 'react-router-dom';
@@ -62,8 +63,14 @@ export default function Clubs() {
           <Card
             img={EnvironmentEcologyAndHealthClub}
             heading='ENVIRONMENT, ECOLOGY AND HEALTH CLUB'
-            about='The club aim at providing a overall development of the members for the future.'
+            about='The club aims at providing a overall development of the members for the future.'
             link='/environment-club'
+            />
+            <Card
+            img={Koshish}
+            heading='KOSHISH'
+            about='The club aims at providing a equal opportunity of quality education for all.'
+            link='/Koshish-club'
             />
         </div>
       </div>

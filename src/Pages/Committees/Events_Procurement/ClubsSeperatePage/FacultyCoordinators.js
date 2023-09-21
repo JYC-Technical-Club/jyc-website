@@ -1,9 +1,8 @@
 import React from "react";
 import Card from "./cards/cards";
 import Card1 from "./cards/cards";
-import Vikas from "../../../Clubs/Theatre/ClubsSeperatePage/images/VikasBaghel.jpeg";
 import ecf1 from "./images/ecf1.jpg";
-import ecf2 from "./images/ecf2.jpg";
+import saurabh from "./images/saurabh.jpg";
 import "./FacultyCoordinators.css";
 function FacultyCoordinators() {
   return (
@@ -27,11 +26,11 @@ function FacultyCoordinators() {
           /></div> */}
           
         <div class="card" id="Card2"><Card1
-            src={Vikas}
-            title="Dr. Vikas Baghel"
+            src={saurabh}
+            title="Dr. Saurabh Bansal"
             designation="Assistant Professor"
-            eMail="vikas.baghel@juit.ac.in"
-            Phone="( 91)01792-239268"
+            eMail="saurabh.bansal@juit.ac.in"
+            Phone="(91) 01792-239222"
           /></div>
     </div>
     </div>

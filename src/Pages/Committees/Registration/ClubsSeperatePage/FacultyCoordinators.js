@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./cards/cards";
 import Card1 from "./cards/cards";
 import Shweta from "./images/Shweta.jpg";
-import bgImg from "./images/Himanshu.jpg";
+import bgImg from "./images/amardeep.jpeg";
 import "./FacultyCoordinators.css";
 function FacultyCoordinators() {
   return (
@@ -11,10 +11,10 @@ function FacultyCoordinators() {
       <div className="containerFC"><div id="tiltedReg" class="tilted">
         <div class="card" ><Card 
             src={bgImg}
-            title="Dr. Himanshu Jindal"
-            designation="Assistant Professor "
-            eMail="himanshu.jindal@juit.ac.in"
-            Phone="( 91) 01792 239237"
+            title="Dr. Amardeep"
+            designation="Assistant Professor (SG)"
+            eMail="amardeep@juit.ac.in"
+            Phone="(91) 01792 239398"
           /></div>
         <div class="card" id="Card2"><Card1
             src={Shweta}

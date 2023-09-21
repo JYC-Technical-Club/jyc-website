@@ -3,7 +3,7 @@ import Card from "./cards/Envcards";
 import Card1 from "./cards/Envcards";
 
 import Ashok from "./images/Ashok.jpeg";
-import Naveen from "./images/Naveen.jpg";
+import Poonam from "./images/poonam.jpeg";
 import "./EnvFacultyCoordinators.css";
 function FacultyCoordinators() {
   return (
@@ -11,11 +11,11 @@ function FacultyCoordinators() {
       <div id="FacTitleEnv" className='HeadingFacCoordi'> <b>Faculty Coordinators</b></div>
       <div className="containerFC"><div id="tiltedEnv" class="tilted">
         <div class="card" ><Card 
-            src={Naveen}
-            title="Dr. Naveen Jaglan"
+            src={Poonam}
+            title="Dr. Poonam Sharma"
             designation="Assistant Professor "
-            eMail="naveen.jaglan@juit.ac.in"
-            Phone="(91)-01792-239206"
+            eMail="poonam.sharma@juit.ac.in"
+            Phone="(91) 01792-239402"
           /></div>
         <div class="card" id="Card2"><Card1
             src={Ashok}

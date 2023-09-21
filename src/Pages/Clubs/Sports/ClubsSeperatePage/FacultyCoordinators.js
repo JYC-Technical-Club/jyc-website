@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./cards/cards";
 import Card1 from "./cards/cards";
 
-import RishiRana from "./images/RishiRana.jpg";
+import Diksha from "./images/Diksha Hooda.jpeg";
 import Munish from "./images/Munish.jpg";
 import "./SportsFacultyCoordinators.css";
 function FacultyCoordinators() {
@@ -18,11 +18,12 @@ function FacultyCoordinators() {
             Phone="(91)01792 239502"
           /></div>
         <div class="card" id="Card2"><Card1
-            src={RishiRana}
-            title="Dr. Rishi Rana"
-            designation="Assistant Professor"
-            eMail="rishi.rana@juit.ac.in"
-            Phone="( 91) 01792 239515"
+            src={Diksha}
+            title="
+            Dr. Diksha Hooda"
+            designation="Assistant Professor (SG)"
+            eMail="diksha.hooda@juit.ac.in"
+            Phone="(91) 01792 239 556"
           /></div>
         
     </div>

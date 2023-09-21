@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./cards/cards";
 import Card1 from "./cards/cards";
-import Papiya from "./images/Papiya.jpg";
-import Gopal from "../../../Committees/Disciplinary/ClubsSeperatePage/images/dImage1.jpg";
+import aman from "./images/aman.jpeg";
+import anita from "./images/anita.jpeg";
 import "./FacultyCoordinatorsTheatre.css";
 function FacultyCoordinators() {
   return (
@@ -11,18 +11,18 @@ function FacultyCoordinators() {
       <div className="containerFC"><div id="tiltedTheatre" class="tilted">
 
         <div class="card" ><Card 
-            src={Gopal}
-            title="Dr. Gopal Singh Bisht"
-            designation="Associate Professor"
-            eMail="gopal.singh@juit.ac.in"
-            Phone="(91) 01792-239220"
+            src={anita}
+            title="Dr. Anita"
+            designation="Associate Professor (SG)"
+            eMail="anita@juitsolan.in"
+            Phone="9818079405"
           /></div>
         <div class="card c2"><Card 
-            src={Papiya}
-            title="Dr. Papiya Lahiri"
+            src={aman}
+            title="Dr. Aman Sharma"
             designation="Assistant Professor (SG)"
-            eMail="papiya.lahiri@juit.ac.in"
-            Phone="(91)01792-239264"
+            eMail="aman.sharma@juit.ac.in"
+            Phone="(91) 01792-239348"
           /></div>
         
     </div>

@@ -126,7 +126,7 @@ function Footer() {
                 <a href="#">JYC President - president.jyc@juitsolan.in</a>
               </li>
               <li>
-                <a href="#">Support - jycphotographyclub1@gmail.com</a>
+                <a href="#">Support - technicalclub.jyc@juitsolan.in</a>
               </li>
               <li>
                 <a href="#">
@@ -149,13 +149,13 @@ function Footer() {
                 <a href="">Facebook</a>
               </li>
               <li>
-                <a href="">Instagram</a>
+                <a href="https://instagram.com/jyc.juit?igshid=NjIwNzIyMDk2Mg==">Instagram</a>
               </li>
               <li>
                 <a href="">Twitter</a>
               </li>
               <li>
-                <a href="">Linkedin</a>
+                <a href="https://www.linkedin.com/company/juit-youth-club/">Linkedin</a>
               </li>
             </ul>
           </div>
@@ -167,8 +167,8 @@ function Footer() {
           </div>
           <div className="social-icons">
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/jyc.juit?igshid=NjIwNzIyMDk2Mg=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/juit-youth-club/"><i class="fa-brands fa-linkedin"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
           </div>
           <div className="footer-option-name">

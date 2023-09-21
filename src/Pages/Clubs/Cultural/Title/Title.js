@@ -1,6 +1,7 @@
 import React from 'react';
 import './Title.css';
 import { FaBeer, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import {Link} from 'react-router-dom';
 // import logo from './title-images/TMPlogo.png';
 function Title (parse) {
     return (

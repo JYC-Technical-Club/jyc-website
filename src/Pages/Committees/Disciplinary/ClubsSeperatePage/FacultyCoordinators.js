@@ -3,11 +3,14 @@ import Card from "./cards/cards";
 import Card1 from "./cards/cards";
 import Card2 from "./cards/cards";
 import Card3 from "./cards/cards";
+import Card4 from "./cards/cards";
+import Card5 from "./cards/cards";
 import Bhupendra from "./images/Bhupendra.jpeg";
-import Yugal from "./images/Yughal.jpeg";
-import RahulSri from "./images/RahulSri.jpg";
-import Sunil from "./images/Sunil.jpeg";
+import nancy from "./images/nancy.jpeg";
+import mandeep from "./images/mandeep.jpeg";
+import abhi from "./images/abhi.jpeg";
 import Neena from "./images/Neena.jpg";
+import vikas from "./images/vikas.jpeg";
 import "./FacultyCoordinatorsDispi.css";
 function FacultyCoordinators() {
   return (
@@ -20,22 +23,25 @@ function FacultyCoordinators() {
         <div id="tiltedDis" class="tilted">
           <div class="card">
             <Card
-              src={Sunil}
-              title="Dr. Sunil Datt Sharma"
+              src={abhi}
+              title="Dr. Abhishek Chaudhary"
               designation="Assistant Professor (SG)"
-              eMail="sunildatt.sharma@juitsolan.in"
-              Phone="9826868418"
+              eMail="abhishek.chaudhary@juit.ac.in"
+              Phone="(91)01792-239354(O)"
             />
           </div>
+      
           <div class="card" id="Card2">
             <Card1
-              src={Yugal}
-              title="Dr. Yugal Kumar"
-              designation="Associate Professor"
-              eMail="yugal.kumar@juitsolan.in"
-              Phone="9897709834"
+              src={nancy}
+              title="Dr. Nancy Singla"
+              designation="Associate Professor (SG)"
+              eMail="nancy.singla@juit.ac.in"
+              Phone="(91) 01792239s263"
             />
           </div>
+
+
           <div class="card ">
             <Card2
               src={Neena}
@@ -52,6 +58,25 @@ function FacultyCoordinators() {
               designation="Associate Professor (SG)"
               eMail="bhupendra.pathak@juitsolan.in"
               Phone="9816181519"
+            />
+          </div>
+
+          <div class="card ">
+            <Card4
+              src={mandeep}
+              title="Dr. Mandeep Singh"
+              designation="Associate Professor (SG)"
+              eMail="mandeep.singh@juit.ac.in"
+              Phone="(91)01792-239277"
+            />
+          </div>
+          <div class="card ">
+            <Card5
+              src={vikas}
+              title="Dr. Vikas Baghel"
+              designation="Associate Professor (SG)"
+              eMail="vikas.baghel@juit.ac.in"
+              Phone="( 91)01792-239268"
             />
           </div>
         </div>
