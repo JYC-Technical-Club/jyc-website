@@ -16,6 +16,8 @@ import Prakul from './images/Prakul.jpg';
 import Ayush from './images/Ayush.jpg';
 import image from './images/image.png';
 import Yuvika from './images/Yuvika.png';
+import Samson from './images/Samson.JPG';
+import Yash from './images/Yash.JPG';
 import Card from '../TEAMS-CARDS/TEAMS-CARDS';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
@@ -139,6 +141,20 @@ function EVENTS() {
        instagram='//www.instagram.com/shashwatsrii/'
        twitter='https://mobile.twitter.com/shashwatt6302'
        linkedin='//www.linkedin.com/in/shashwat-srivastava-8a2200227/'/>
+       <Card
+       img ={Samson}
+       name="Samson Vincent Julius"
+       text="Web Dev Team Member"
+       instagram='https://www.instagram.com/sam.v_julius/'
+       twitter=''
+       linkedin='https://www.linkedin.com/in/samson-vincent-julius/'/>
+       <Card
+       img ={Yash}
+       name="Yash Khatri"
+       text="Web Dev Team Member"
+       instagram='https://www.instagram.com/yashkhatri99/'
+       twitter=''
+       linkedin='https://www.linkedin.com/in/yash--khatri/'/>
        </div>
     </div>
     <Footer/>

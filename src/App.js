@@ -9,6 +9,7 @@ import Literary from "./Pages/Clubs/Literary/Literary";
 import Sports from "./Pages/Clubs/Sports/Sports";
 import Theatre from "./Pages/Clubs/Theatre/Theatre";
 import TMPClub from "./Pages/Clubs/TMPClub/TMPClub";
+import Koshish from "./Pages/Clubs/Koshish/Koshish";
 import Arts from "./Pages/Committees/Arts/Arts";
 import Disciplinary from "./Pages/Committees/Disciplinary/Disciplinary";
 import EventsPro from "./Pages/Committees/Events_Procurement/Events";
@@ -26,7 +27,7 @@ import Diksha from "./Pages/Event Page/EventPages/Diksha/Diksha";
 import Alfaaz from "./Pages/Event Page/EventPages/Alfaaz/Alfaaz";
 import MasterChef from "./Pages/Event Page/EventPages/MasterChef/MasterChef";
 import Parakram from "./Pages/Event Page/EventPages/Parakram/Parakram";
-import Koshish from "./Pages/Clubs/Koshish/Koshish";
+import Latestnews from "./Pages/Latestnews/compcard";
 function App() {
   return (
     <BrowserRouter>
@@ -42,6 +43,7 @@ function App() {
         <Route path="sports-club" element={<Sports />} />
         <Route path="theatre-club" element={<Theatre />} />
         <Route path="tmp-club" element={<TMPClub />} />
+        <Route path="Koshish-club" element={<Koshish />} />
         <Route path="arts-committee" element={<Arts />} />
         <Route path="disciplinary-committee" element={<Disciplinary />} />
         <Route path="eventspro-committee" element={<EventsPro />} />
@@ -56,11 +58,11 @@ function App() {
         <Route path="alfaaz" element={<Alfaaz />} />
         <Route path="master-chef" element={<MasterChef />} />
         <Route path="parakram" element={<Parakram />} />
-        <Route path="koshish-club" element={<Koshish />} />
         <Route
           path="page-under-construction"
           element={<Page_Under_Construction />}
         />
+        <Route path="latest-news" element={<Latestnews />} />
       </Routes>
     </BrowserRouter>
   );
