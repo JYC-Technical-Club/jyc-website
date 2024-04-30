@@ -30,6 +30,10 @@ import Parakram from "./Pages/Event Page/EventPages/Parakram/Parakram";
 import Latestnews from "./Pages/Latestnews/compcard";
 import ClubPageTemplate from "./Pages/Clubs/Template/ClubPageTemplate";
 import TempClubPage from "./Pages/Clubs/TempClubPage";
+import JYCOrientation from "./Pages/Event Page/EventPages/JYCOrientation/JYCOrientation";
+import HindiDiwas from "./Pages/Event Page/EventPages/HindiDiwas/HindiDiwas";
+import GarbaNight from "./Pages/Event Page/EventPages/GarbaNight/GarbaNight";
+import Dhun from "./Pages/Event Page/EventPages/Dhun/Dhun";
 function App() {
   return (
     <BrowserRouter>
@@ -67,6 +71,10 @@ function App() {
         <Route path="latest-news" element={<Latestnews />} />
         <Route path="temp" element={<ClubPageTemplate />} />
         <Route path="tempclub" element={<TempClubPage />} />
+        <Route path="jyc-orientation" element={<JYCOrientation />} />
+        <Route path="hindi-diwas" element={<HindiDiwas />} />
+        <Route path="garba-night" element={<GarbaNight />} />
+        <Route path="dhun" element={<Dhun />} />
       </Routes>
     </BrowserRouter>
   );

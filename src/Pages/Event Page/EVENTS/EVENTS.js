@@ -4,6 +4,18 @@ import Card from "../CARDS/CARDS";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import { useEffect } from "react";
+import JYCOrientation from "./images/orientation.jpg"
+import Diksha from "./images/Diksha.jpg"
+import SemTournaments from "./images/SemTournaments.jpg"
+import HindiDiwas from "./images/HindiDiwas.jpg"
+import Parakram from "./images/Parakram.jpg"
+import GarbaNight from "./images/GarbaNight.webp"
+import Masterchef from "./images/Masterchef.jpg"
+import Alfaaz from "./images/Alfaaz.jpg"
+import Murious from "./images/Murious.jpg"
+import Dhun from "./images/Dhun.jpg"
+import LeFiestus from "./images/LeFiestus.jpg"
+
 function EVENTS() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -20,65 +32,87 @@ function EVENTS() {
         <div className="events-container">
           {/* EVENT 6 */}
           <Card
-            img="https://drive.google.com/uc?export=view&id=1GmBhrAJPmk29lHtftFExVCtlPrDdkPmW"
-            title="MOVIE Night"
-            date=""
-            about="When you are at college, you are always looking for simple ways to have fun. Movies are the best stress reliever to be able to just forget about your responsibilities and just relax and have fun."
-            link="/movie-night"
-          />
-
-          <Card
-            img="https://drive.google.com/uc?export=view&id=1GBuTwck52fQkaP463Ese0Jj5BQQLhmVA"
+            img={LeFiestus}
             title="Le Fiestus"
             date=""
-            about="Welcome to 'Le Fiestus' – our college's highly anticipated annual fest that promises three unforgettable days filled with boundless energy, exhilarating activities, and mesmerizing performances."
+            about="Le Fiestus is the annual fest at Jaypee University of Information Technology, serving as a vibrant showcase of diverse art forms, customs, and traditions from across the country."
             link="/le-fiestus"
           />
-
           <Card
-            img="https://drive.google.com/uc?export=view&id=1ldy1PsD3tNA5xXM1wTr8YEOxUC6e9EEv"
+            img={Dhun}
+            title="Dhun"
+            date=""
+            about="DHUN is a music event organised by the Literary and Debating Club of JYC. It serves as a platform for students to participate in a unique singing competition, bringing together members from different choirs to showcase their musical talent and compete."
+            link="/dhun"
+          />
+          <Card
+            img={Murious}
             title="Murious"
             date=""
-            about="Welcome to 'Murious' – our college's highly anticipated annual tech fest that spans three action-packed days dedicated to innovation, technology, and limitless possibilities."
+            about="Murious is an annual technical fest organised by the Technical Sciences, movies and Photography club of JYC. The event typically spans multiple days and features a diverse range of technical competitions and activities."
             link="/murious"
           />
-
           <Card
-            img="https://drive.google.com/uc?export=view&id=1B-83WhhsagT6AUXrsmDbWVjEmUSK0duM"
-            title="Semester Tournament"
+            img={Alfaaz}
+            title="Alfaaz"
             date=""
-            about="A tournament which brings together all the sports enthusiasts. From basketball to cricket ,chess to badminton from indoor to outdoors this tournament wraps it all."
-            link="/sem-tournaments"
-          />
-
-          <Card
-            img="https://drive.google.com/uc?export=view&id=1F5n4FgrDD0D7Eiq2t5z7ukD_pZ8g-9pn"
-            title="Alfaz"
-            date=""
-            about="The Literary and Debating Club of JUIT Youth Club hosted 'ALFAAZ '22,' a celebration merging literature, art, and culture against the stunning Himalayan backdrop."
+            about="ALFAAZ is an annual literary extravaganza organised by the Literary and Debating Club of JYC (Jaypee Youth Club). The event spans two days and includes engaging sessions, insightful discussions, and a variety of activities."
             link="/alfaaz"
           />
 
           <Card
-            img="https://drive.google.com/uc?export=view&id=1CXgsGXGsihB46UZCE8rUDkCUkirlmSqI"
-            title="Diksha"
+            img={Masterchef}
+            title="Master Chef"
             date=""
+            about="Master Chef Competition organised by Environment, Health and Ecology Club JYC is a culinary spectacle that captivates the campus."
+            link="/master-chef"
+          />
+
+          <Card
+            img={GarbaNight}
+            title="Garba Night"
+            date=""
+            about="This event is nothing short of a magnificent cultural extravaganza that brings together students and faculty. The atmosphere is transformed into a traditional wonderland with colourful drapes, attendees donned a stunning array of traditional Indian attire."
+            link="/garba-night"
+          />
+
+          <Card
+            img={Parakram}
+            title="Parakram"
+            date=""
+            about="This is an inter college event organised by the sports club of JYC.
+            Over the course of the three days, this sporting extravaganza witnesses fierce competition among around 400 talented participants from universities."
+            link="/parakram"
+          />
+
+          <Card
+            img={HindiDiwas}
+            title="Hindi Diwas"
+            date=""
+            about="The essence of Hindi Diwas is brought to life through various activities in this event organised by Literary and debating Club, students exhibit their proficiency in Hindi through various methods including poetry, debates and essays, debate competition is the highlight of the event."
+            link="/hindi-diwas"
+          />
+
+          <Card
+            img={SemTournaments}
+            title="Semester Sports Tournaments"
+            date=""
+            about="The Semester Sports Tournament is organised at JUIT by the sports club of JYC, promoting physical fitness, camaraderie, and healthy competition among students."
+            link="/sem-tournaments"
+          />
+          <Card
+            img={Diksha}
+            title="Diksha"
+            date="16 Sep, 2023"
             about="The Freshers' Events at JUIT are a celebration of new beginnings, forging lifelong connections, and creating unforgettable memories. From the moment you step foot on our picturesque campus, you will be embraced by the warm camaraderie and contagious enthusiasm that defines our vibrant student community."
             link="/diksha"
           />
           <Card
-            img="https://drive.google.com/uc?export=view&id=1WaMVBglrNbRy1Yh0csWpwzqVF12OKTrc"
-            title="Master Chef"
-            date=""
-            about="An event organized to spread awareness about the importance of health."
-            link="/master-chef"
-          />
-          <Card
-            img="https://drive.google.com/uc?export=view&id=1LnfJzVYHZ_safndvF9NS-2tvLm7RC7Eo"
-            title="Parakram"
-            date=""
-            about="An event organized to spread awareness about the importance of health."
-            link="/parakram"
+            img={JYCOrientation}
+            title="JYC Orientation"
+            date="26 Aug, 2023"
+            about="Dive into the world of enthusiasm, energy and excitement. Discover the power of unity, creativity and leadership with lifelong friendships and the chance to make a difference."
+            link="/jyc-orientation"
           />
         </div>
       </div>

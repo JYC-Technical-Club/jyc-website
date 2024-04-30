@@ -1,34 +1,45 @@
 import React from "react";
 import Card from "../Card/Card";
-import "../MovieNight/MovieNight.css";
+import "../EventPages.css";
 import Header from "../../../components/Header/Header";
 import Footer from "../../../components/Footer/Footer";
+import ParakramP from "../../EVENTS/images/Parakram.jpg"
+import ParakramPDF from "./Assets/Parakram.pdf"
+import ParakramD1 from "./Assets/ParakramDay1.pdf"
+import ParakramD2 from "./Assets/ParakramDay2.pdf"
+import ParakramD3 from "./Assets/ParakramDay3.pdf"
+import Asset1 from "./Assets/Parakram1.png"
+import Asset2 from "./Assets/Parakram2.png"
+import Asset3 from "./Assets/Parakram3.png"
+import Asset4 from "./Assets/Parakram4.png"
+import Asset5 from "./Assets/Parakram5.png"
 
 export default function Parakram() {
   return (
     <div>
       <Header />
-      <div className="mov-night">
-      <span className="header-bg-for-white"/>
-        <Card
-          img="https://drive.google.com/uc?export=view&id=1CLcGY_hroK-4Q7uO1qRVP2KUDfVBF8Wm"
-          alt="Parakram"
-          title="Parakram"
-          date=""
-          about="Parakram, a thrilling sports event, brings together universities for competitive matches in football, basketball, volleyball, tennis, and more. Our university hosts the event, attracting students from all over to cheer for their teams. With our university also participating, it creates an electric atmosphere as teams from different universities come together to showcase their skills and sportsmanship."
-          img1="https://drive.google.com/uc?export=view&id=1d4LZHLkjui7vTw-nwYFvr3uXJrWcOzsR"
-          alt1="Parakram"
-          img2="https://drive.google.com/uc?export=view&id=1TVVua5-Uv5VVoGy91CB50pvuhPoximwP"
-          alt2="Parakram"
-           img3="https://drive.google.com/uc?export=view&id=12O6bwbZQACGMZ-uJs4-97t0_5xTTeSVr"
-          alt3="Parakram"
-          img4="https://drive.google.com/uc?export=view&id=1mL05OM00t2bkj_0I3uZu4GvbM11mt7oR"
-          alt4="Parakram"
-          img5="https://drive.google.com/uc?export=view&id=1YQyANMYC12LoC1KcbfXM1FvJmT9UWauk"
-          alt5="Parakram"
-        />
+      <div className="event-pages-header" />
+      <Card
+        img={ParakramP}
+        alt="Parakram"
+        title="Parakram"
+        date="Date: 6 Oct, 2023"
+        about="Parakram, a thrilling sports event, brings together universities for competitive matches in football, basketball, volleyball, tennis, and more. Our university hosts the event, attracting students from all over to cheer for their teams. With our university also participating, it creates an electric atmosphere as teams from different universities come together to showcase their skills and sportsmanship."
+        pdf={ParakramPDF}
+        img1={Asset1}
+        alt1="Parakram"
+        img2={Asset2}
+        alt2="Parakram"
+        img3={Asset3}
+        img4={Asset4}
+        img5={Asset5}
+      />
+      <div className="more-reports">
+        <a href={ParakramD1} target="_blank">Day 1 Report</a>
+        <a href={ParakramD2} target="_blank">Day 2 Report</a>
+        <a href={ParakramD3} target="_blank">Day 3 Report</a>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

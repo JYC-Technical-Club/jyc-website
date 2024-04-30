@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "../Card/Card";
-import "./MovieNight.css";
 import MovieNightImg from "./Assets/movienight.jpeg";
 import Header from "../../../components/Header/Header";
 import Footer from "../../../components/Footer/Footer";
+import "../EventPages.css"
 
 export default function MovieNight() {
   return (
