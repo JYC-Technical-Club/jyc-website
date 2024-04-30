@@ -28,6 +28,8 @@ import Alfaaz from "./Pages/Event Page/EventPages/Alfaaz/Alfaaz";
 import MasterChef from "./Pages/Event Page/EventPages/MasterChef/MasterChef";
 import Parakram from "./Pages/Event Page/EventPages/Parakram/Parakram";
 import Latestnews from "./Pages/Latestnews/compcard";
+import ClubPageTemplate from "./Pages/Clubs/Template/ClubPageTemplate";
+import TempClubPage from "./Pages/Clubs/TempClubPage";
 function App() {
   return (
     <BrowserRouter>
@@ -63,6 +65,8 @@ function App() {
           element={<Page_Under_Construction />}
         />
         <Route path="latest-news" element={<Latestnews />} />
+        <Route path="temp" element={<ClubPageTemplate />} />
+        <Route path="tempclub" element={<TempClubPage />} />
       </Routes>
     </BrowserRouter>
   );
