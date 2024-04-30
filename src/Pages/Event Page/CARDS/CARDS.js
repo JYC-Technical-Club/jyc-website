@@ -1,9 +1,25 @@
 import React from 'react'
 import './CARDS.css'
-import {Link} from 'react-router-dom'
+import { animateScroll } from "react-scroll";
+import { useLocation, useNavigate, Link } from "react-router-dom";
+
+
 export default function Card(parse) {
+  const options = {
+    duration: 500,
+    smooth: true,
+  };
+
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleScrollToTop = () => {
+    if (location.pathname !== "/") {
+      navigate("/");
+    }
+    animateScroll.scrollToTop(options);
+  };
   return (
-    
     <div>
     <div className='flip-card-events'>
        <div className='flip-card-inner-events'>
@@ -24,6 +40,7 @@ export default function Card(parse) {
            <h1>{parse.heading}</h1> 
            <p className='events-abt'>{parse.about}</p> 
            <Link className='links'
+           onClick={handleScrollToTop}
             to={{
               pathname: parse.link,
               state: { fromDashboard: true }

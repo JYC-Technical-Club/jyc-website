@@ -27,13 +27,14 @@ import Diksha from "./Pages/Event Page/EventPages/Diksha/Diksha";
 import Alfaaz from "./Pages/Event Page/EventPages/Alfaaz/Alfaaz";
 import MasterChef from "./Pages/Event Page/EventPages/MasterChef/MasterChef";
 import Parakram from "./Pages/Event Page/EventPages/Parakram/Parakram";
-import Latestnews from "./Pages/Latestnews/compcard";
 import ClubPageTemplate from "./Pages/Clubs/Template/ClubPageTemplate";
 import TempClubPage from "./Pages/Clubs/TempClubPage";
 import JYCOrientation from "./Pages/Event Page/EventPages/JYCOrientation/JYCOrientation";
 import HindiDiwas from "./Pages/Event Page/EventPages/HindiDiwas/HindiDiwas";
 import GarbaNight from "./Pages/Event Page/EventPages/GarbaNight/GarbaNight";
 import Dhun from "./Pages/Event Page/EventPages/Dhun/Dhun";
+import LatestNews from "./Pages/Latestnews/LatestNews";
+
 function App() {
   return (
     <BrowserRouter>
@@ -68,7 +69,7 @@ function App() {
           path="page-under-construction"
           element={<Page_Under_Construction />}
         />
-        <Route path="latest-news" element={<Latestnews />} />
+        <Route path="latest-news" element={<LatestNews />} />
         <Route path="temp" element={<ClubPageTemplate />} />
         <Route path="tempclub" element={<TempClubPage />} />
         <Route path="jyc-orientation" element={<JYCOrientation />} />
