@@ -11,7 +11,7 @@ export default function Card(parse) {
                 <div className="event-date e-date">{parse.date}</div>
                 <div className="event-about">{parse.about}</div>
             </div>
-            <embed src={parse.pdf} type="application/pdf" width="60%" height="500px" />
+            <embed src={parse.pdf} type="application/pdf" className='event-pages-pdf' width="60%" height="500px" />
             <div className='event-images'>
                 <img className='event-image' src={parse.img1} alt={parse.alt1}/>
                 <img className='event-image' src={parse.img2} alt={parse.alt2}/>

@@ -15,11 +15,14 @@
   width: 80%;
 }
 .event-title {
-  font-size: 3rem;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
 }
 .e-date {
-  font-size: 2rem;
+  font-size: 24px;
   color: black;
+  font-weight: 300;
 }
 .event-images {
   display: flex;
@@ -27,7 +30,7 @@
   justify-content: center;
 }
 .event-image {
-  max-width: 35%;
+  max-width: 25%;
   max-height: 100%;
   object-fit: fill;
   margin: 1rem;
@@ -39,4 +42,34 @@
   border-radius: 6px;
   text-decoration: none;
   font-size: 1.5vw;
+}
+.event-about{
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 300;
+  word-spacing: 6px;
+}
+@media screen and (max-width:425px){
+  .event-poster {
+    width: 80%;
+  }
+  .event-title{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .e-date{
+    font-size: 14px;
+  }
+  .event-image{
+    max-width: 80%;
+  }
+  .event-about{
+    font-size: 14px;
+    word-spacing: normal;
+  }
+  .event-pages-pdf{
+    width: 80%;
+    height: 60%;
+  }
 }
