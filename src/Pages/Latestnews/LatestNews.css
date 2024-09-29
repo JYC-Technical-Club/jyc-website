@@ -80,6 +80,6 @@
 @media only screen and (min-width: 992px) {
 
     .ln-card  {
-        flex-direction: column; /* Change to column for mobile view */
+        flex-direction: row; /* Change to column for mobile view */
     }
 }
