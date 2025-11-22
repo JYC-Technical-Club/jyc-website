@@ -3963,5 +3963,43 @@ html[dir="rtl"] .footer .footer-bar .creation {
     transform: scale(0, 1);
   }
 }
+/* WORK SECTION — FIX FOR SINGLE ROW ON LAPTOP */
+
+@media (min-width: 992px) {
+  .work ul {
+    display: flex;
+    flex-wrap: nowrap;        /* Keep all cards in one row */
+    overflow-x: auto;         /* Prevent overflowing layout */
+    justify-content: flex-start;
+  }
+
+  .work ul li {
+    flex: 0 0 auto;           /* Prevent shrinking */
+    width: 25%;               /* 4 cards in a row, adjust if needed */
+    padding: 40px;
+    box-sizing: border-box;
+  }
+}
+
+/* Tablet view: 2 per row */
+@media (max-width: 991px) {
+  .work ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .work ul li {
+    width: 50%;
+    padding: 30px;
+  }
+}
+
+/* Mobile view: 1 per row */
+@media (max-width: 600px) {
+  .work ul li {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
 
 /*# sourceMappingURL=style.css.map */
