@@ -4001,5 +4001,58 @@ html[dir="rtl"] .footer .footer-bar .creation {
   }
 }
 
+.contact-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-card-glass {
+    text-align: center;
+    color: #f3f4f6;
+    padding: 24px 32px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 18px;
+    
+    /* The Translucent / Glass Effect */
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px); /* Creates the frosted glass blur */
+    -webkit-backdrop-filter: blur(12px); /* For Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.contact-title {
+    display: block;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-link-glass {
+    color: #93c5fd; /* Soft pastel blue */
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.contact-link-glass:hover {
+    color: #bfdbfe; /* Lighter blue on hover */
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
